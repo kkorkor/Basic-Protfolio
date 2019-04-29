@@ -1,54 +1,92 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Keanu Korkor</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
 </head>
+
 <body>
-
-<div class="wrapper">
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Keanu Korkor</a>
-      <nav>
-        <ul>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="soccer.jpg">KK</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="home.html">Home</a></li>
           <li><a href="index.html">About</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-      </nav>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
     </div>
-  </header>
-
+    <div class="push"></div>
+    </div>
+  </nav>
   <main class="container">
     <section class="main-section">
-      <h1>Portfolio</h1>
+      <h1 class="center">Portfolio</h1>
       <h2>Trivia Game</h2>
 
-      <div class="work">
-        <img src="images/trivia.png" alt="Trivia Guess">
-
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/images/trivia.png" class="card-img-top" style="width: 300px">
+        <div class="card-body">
+          <h5 class="card-title">Soccer Trivia</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="file:///Users/keanukorkor/code/TriviaGame/index.html" class="btn btn-primary">Trivia</a>
+        </div>
         <h3>Physic Game</h3>
-      </div>
-      <div class="work">
-        <img src="images/psychic.png" alt="Physic Game">
+        <div class="card" style="width: 18rem;">
+          <img src="../assets/images/physic.png" class="card-img-top" style="width: 300px">
+          <div class="card-body">
+            <h5 class="card-title">Physic Game</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="file:///Users/keanukorkor/code/Psychic-Game/index.html" class="btn btn-primary">Physic</a>
+          </div>
 
-        <h3>Gif Game</h3>
-      </div>
-      <div class="work">
-        <img src="images/Screen Shot 2019-04-05 at 8.06.16 PM.png" alt="Gif Game">
+          <h3>Gif Game</h3>
+          <div class="card" style="width: 18rem;">
+            <img src="../assets/images/soccer gif.png" class="card-img-top" style="width: 300px">
+            <div class="card-body">
+              <h5 class="card-title">Soccer Gifs</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="file:///Users/keanukorkor/code/SoccerGifs/index.html" class="btn btn-primary">Gifs</a>
+            </div>
+            <h3>Fork to Mouth</h3>
+            <div class="card" style="width: 18rem;">
+              <img src="../assets/images/soccer gif.png" class="card-img-top" style="width: 300px">
+              <div class="card-body">
+                <h5 class="card-title">Food Finder</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="https://sallyb1988.github.io/RecipeFinder/" class="btn btn-primary">FTM</a>
+              </div>
 
     </section>
   </main>
-  <div class="push"></div>
-</div>
 
   <footer>
     <div class="container">
     </div>
   </footer>
 </body>
+
 </html>

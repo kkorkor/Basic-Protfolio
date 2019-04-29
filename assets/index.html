@@ -1,50 +1,84 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
 </head>
 <body>
 
-<div class="wrapper">
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Keanu Korkor</a>
-      <nav>
-        <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="soccer.jpg">KK</a>
     </div>
-  </header>
-
-  <main class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="images/cat.jpg" class="auth-image" alt="placeholder">
-
-      <p>Hi my name is Keanu Korkor. I'm from Woodbridge,Virginia. I've lived there my whole life.
-        I recetly graduated from the university of Mary Washington in the spring of 2018.
-        I enjoy playing soccer, I've been playinng soccer since I was 5 years old. 
-        My favorite soccer team is Real Madrid and Chelsea. Hopefully one day I can see both of them play live. 
-        One of my biggest dreams is to go to the Santiago Bernabeu and watch Madrid play Barcelona there rival team.
-        Hopfully one day I can fullfil that dream soon</p>
-
-    </section>
-
-  </main>
-  <div class="push"></div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="home.html">Home</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+         <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="https://youtu.be/A4fB8WVyACY">Real Madrid</a></p>
+      <p><a href="https://www.linkedin.com/in/keanu-korkor-4138a5178/">Linkedin</a></p>
+      <p><a href="https://github.com/kkorkor">Github</a></p>
+    </div>
+    
+    <div class="col-sm-8 text-left"> 
+      <h1>Keanu Korkor</h1>
+      <p>My name is Keanu I am a recent University graduate who enjoys playing soccer during my free time.
+        ere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration 
+        in some form, by injected humour, or randomised words which don't look even slightly believable. 
+        If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
+         in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
+         making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a 
+         handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore
+          always free from repetition, injected humour, or non-characteristic words etc.
+        
+      </p>
+      <hr>
+      <h3>Test</h3>
+      <p>ere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, 
+        by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of 
+        Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. 
+        All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first 
+        true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, 
+        to generate Lorem Ipsum which looks reasonable. 
+        The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>ADS</p>
+      </div>
+      <div class="well">
+        <p>ADS</p>
+      </div>
+    </div>
+  </div>
 </div>
-
-  <footer>
+</body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer>
     <div class="container">
     </div>
   </footer>
-</body>
 </html>
+
