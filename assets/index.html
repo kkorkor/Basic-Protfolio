@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
@@ -9,76 +10,145 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
 </head>
+
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="soccer.jpg">KK</a>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="home.html">Home</a></li>
-        <li><a href="index.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-         <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-      </ul>
+  </nav>
+  <header>
+    <div class="jumbotron text-center" id="home">
+      <div class="hometxt">Keanu's Portfolio</div>
+      <span class="text2">Welcome</span>
     </div>
-  </div>
-</nav>
-  
-<div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <p><a href="https://youtu.be/A4fB8WVyACY">Real Madrid</a></p>
-      <p><a href="https://www.linkedin.com/in/keanu-korkor-4138a5178/">Linkedin</a></p>
-      <p><a href="https://github.com/kkorkor">Github</a></p>
-    </div>
-    
-    <div class="col-sm-8 text-left"> 
-      <h1>Keanu Korkor</h1>
+  </header>
+
+
+
+
+  <div class="col-s" id="about">
+    <h1>Keanu Korkor</h1>
+    <div id="indextxt">
       <p>My name is Keanu I am a recent University graduate who enjoys playing soccer during my free time.
-        ere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration 
-        in some form, by injected humour, or randomised words which don't look even slightly believable. 
-        If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
-         in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
-         making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a 
-         handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore
-          always free from repetition, injected humour, or non-characteristic words etc.
-        
-      </p>
-      <hr>
-      <h3>Test</h3>
-      <p>ere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, 
-        by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of 
-        Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. 
-        All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first 
-        true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, 
-        to generate Lorem Ipsum which looks reasonable. 
-        The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-    </div>
-    <div class="col-sm-2 sidenav">
-      <div class="well">
-        <p>ADS</p>
-      </div>
-      <div class="well">
-        <p>ADS</p>
-      </div>
+        ere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+        in some form, by injected humour, or randomised words which don't look even slightly believable.
+        If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
+        hidden
+        in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+        necessary,
+        making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined
+        with a
+        handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem
+        Ipsum is therefore
+        always free from repetition, injected humour, or non-characteristic words etc.</p>
     </div>
   </div>
-</div>
-</body>
+  </div>
+  </div>
+<hr width="75%">
+
+  <main class="container" id="portfolio">
+    <div class="row">
+      <section class="main-section">
+        <h1 class="center">Portfolio</h1>
+
+        <h2 class="col-sm-4">Trivia Game</h2>
+        <div class="card" style="width: 18rem;">
+          <img src="../assets/images/trivia.png" class="card-img-top" style="width: 300px">
+          <div class="card-body">
+            <h5 class="card-title">Soccer Trivia</h5>
+            <p class="card-text">Answer the trivia questions to see if you know the answers.</p>
+            <a href="https://kkorkor.github.io/TriviaGame/" class="btn btn-primary">Trivia</a>
+          </div>
+        </div>
+
+        <h3 class="col-sm-4">Physic Game</h3>
+        <div class="card" style="width: 18rem;">
+          <img src="../assets/images/physic.png" class="card-img-top" style="width: 300px">
+          <div class="card-body">
+            <h5 class="card-title">Physic Game</h5>
+            <p class="card-text">In this game you will try to guess the letter the app is thinking.</p>
+            <a href="https://kkorkor.github.io/Psychic-Game/" class="btn btn-primary">Physic</a>
+          </div>
+        </div>
+
+        <h4 class="col-sm-4">Gif Game</h4>
+        <div class="card" style="width: 18rem;">
+          <img src="../assets/images/soccer gif.png" class="card-img-top" style="width: 300px">
+          <div class="card-body">
+            <h5 class="card-title">Soccer Gifs</h5>
+            <p class="card-text">This app will display 10 different gifs for each soccer team
+              once you click on the button.</p>
+            <a href="file:///Users/keanukorkor/code/SoccerGifs/index.html" class="btn btn-primary">Gifs</a>
+          </div>
+        </div>
+
+        <h5 class="col-sm-4">Fork to Mouth</h5>
+        <div class="card" style="width: 18rem;">
+          <img src="../assets/images/food find.png" class="card-img-top" style="width: 300px">
+          <div class="card-body">
+            <h5 class="card-title">Food Finder</h5>
+            <p class="card-text">Click on the different ingreendents and it should bring up recipes using those
+              ingreendents</p>
+            <a href="https://sallyb1988.github.io/RecipeFinder/" class="btn btn-primary">FTM</a>
+          </div>
+        </div>
+
+        <h5 class="col-sm-4">Taco About It</h5>
+        <div class="card" style="width: 18rem;">
+          <img src="../assets/images/tacobattle.png" class="card-img-top" style="width: 300px">
+          <div class="card-body">
+            <h5 class="card-title">Taco Battle</h5>
+            <p class="card-text">In this app tacos will fight with each other
+            </p>
+            <a href="http://taco-battle.herokuapp.com/" class="btn btn-primary">TB</a>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+  <hr width="75%">  
+
+ 
+  <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <footer>
-    <div class="container">
-    </div>
-  </footer>
-</html>
+  <div class="container">
+  </div>
+</footer>
 
+</html>
