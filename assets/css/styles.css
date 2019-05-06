@@ -1,7 +1,8 @@
 body {
-  background: skyblue;
+  background: #302a2a;
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
   
  
@@ -42,12 +43,10 @@ h1{
   width: 100px;
 }
 
+
 #indextxt{
   font-size: 1.5em;
-  shif: left;
-}
-.col-sm-2 sidenav{
-  background: pink;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -72,20 +71,20 @@ h1{
 }
 
 .hometxt{
+  font-family:fantasy ;
   color: white;
-  font-size: 60px;
+  font-size: 90px;
   font-weight: 700;
   letter-spacing: 8px;
   margin-bottom: 20px;
-  background: black;
   position: relative;
   animation: text 3s 1;
+  color: black;
 }
 
 .text2{
-  font-size: 30px;
+  font-size: 55px;
   color: gold;
-  background: black;
 }
 
 @keyframes text {
@@ -132,6 +131,15 @@ input[type=submit]:hover {
 
 .containerC{
   border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+    padding: 20px;
+}
+
+#portfolio{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+  font-size: 70px;
+  float: center;
+  font-family: cursive;
 }

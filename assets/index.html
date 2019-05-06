@@ -13,7 +13,7 @@
 
 <body>
 
-  <nav class="navbar navbar-inverse">
+  <nav class="navbar navbar-inverse navbar-light">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -34,6 +34,8 @@
       </div>
     </div>
   </nav>
+
+
   <header>
     <div class="jumbotron text-center" id="home">
       <div class="hometxt">Keanu's Portfolio</div>
@@ -44,11 +46,11 @@
 
 
 
-  <div class="container" id="about">
+  <div class="container">
     <div class="col-sm-10">
-      <h1>Keanu Korkor</h1>
+      <h1 id="about">About</h1>
       <div id="indextxt">
-        <p>My name is Keanu I am a recent University graduate who enjoys playing soccer during my free time.
+        <p>Hi,my name is Keanu Korkor I am a recent 2018 graduate from the University of Mary Washington, who enjoys playing soccer.
           ere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
           in some form, by injected humour, or randomised words which don't look even slightly believable.
           If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
@@ -65,7 +67,7 @@
   </div>
   <hr width="75%">
 
-  <main class="container" id="portfolio">
+  <div class="container" id="portfolio">
     <div class="row">
       <section class="main-section">
         <h1 class="center">Portfolio</h1>
@@ -75,72 +77,76 @@
           <div class="card" style="width: 18rem;">
             <img src="../assets/images/trivia.png" class="card-img-top" style="width: 300px">
             <div class="card-body">
-              <h5 class="card-title">Soccer Trivia</h5>
-              <p class="card-text">Answer the trivia questions to see if you know the answers.</p>
-              <a href="https://kkorkor.github.io/TriviaGame/" class="btn btn-primary">Trivia</a>
+              <h5 class="card-title"></h5>
+              <p class="card-text">In this game you will try to figure out the answer for the question they 
+                ask you about soccer.</p>
+              <a href="https://kkorkor.github.io/TriviaGame/" class="btn btn-primary">Play</a>
             </div>
           </div>
         </div>
 
 
         <div class="col-sm-4">
-          <h3>Physic Game</h3>
+          <h2>Physic Game</h2>
           <div class="card" style="width: 18rem;">
             <img src="../assets/images/physic.png" class="card-img-top" style="width: 300px">
             <div class="card-body">
-              <h5 class="card-title">Physic Game</h5>
-              <p class="card-text">In this game you will try to guess the letter the app is thinking.</p>
-              <a href="https://kkorkor.github.io/Psychic-Game/" class="btn btn-primary">Physic</a>
+              <h5 class="card-title"></h5>
+              <p class="card-text">In this game you will try to guess what letter the cpu is thing by 
+                pressing a letter on your keyboard.</p>
+              <a href="https://kkorkor.github.io/Psychic-Game/" class="btn btn-primary">Play</a>
             </div>
           </div>
         </div>
 
         <div class="col-sm-4">
-        <h4>Gif Game</h4>
+        <h2>Gif Game</h2>
         <div class="card" style="width: 18rem;">
           <img src="../assets/images/soccer gif.png" class="card-img-top" style="width: 300px">
           <div class="card-body">
-            <h5 class="card-title">Soccer Gifs</h5>
+            <h5 class="card-title"></h5>
             <p class="card-text">This app will display 10 different gifs for each soccer team
               once you click on the button.</p>
-            <a href="file:///Users/keanukorkor/code/SoccerGifs/index.html" class="btn btn-primary">Gifs</a>
+            <a href="file:///Users/keanukorkor/code/SoccerGifs/index.html" class="btn btn-primary">Play</a>
           </div>
         </div>
     </div>
 
     <div class="col-sm-4">
-      <h5>Fork to Mouth</h5>
+      <h2>Fork to Mouth</h2>
       <div class="card" style="width: 18rem;">
         <img src="../assets/images/food find.png" class="card-img-top" style="width: 300px">
         <div class="card-body">
-          <h5 class="card-title">Food Finder</h5>
-          <p class="card-text">Click on the different ingreendents and it should bring up recipes using those
-            ingreendents</p>
-          <a href="https://sallyb1988.github.io/RecipeFinder/" class="btn btn-primary">FTM</a>
+          <h5 class="card-title"></h5>
+          <p class="card-text">In is app you will select ingredents and it will give you options of
+             different types of recipes by the ingreendents.
+            </p>
+          <a href="https://sallyb1988.github.io/RecipeFinder/" class="btn btn-primary">Play</a>
         </div>
       </div>
     </div>
 
-    <div class="col-sm-4">
-      <h5>Taco About It</h5>
+    <div class="col-sm-3">
+      <h2>Taco About It</h2>
       <div class="card" style="width: 18rem;">
         <img src="../assets/images/tacobattle.png" class="card-img-top" style="width: 300px">
         <div class="card-body">
-          <h5 class="card-title">Taco Battle</h5>
-          <p class="card-text">In this app tacos will fight with each other
+          <h5 class="card-title"></h5>
+          <p class="card-text">In this app you will select a user and pick one of the tacos made. 
+            Then they will fight to see who wins.
           </p>
-          <a href="http://taco-battle.herokuapp.com/" class="btn btn-primary">TB</a>
+          <a href="http://taco-battle.herokuapp.com/" class="btn btn-primary">Play</a>
         </div>
       </div>
     </div>
     </section>
     </div>
-  </main>
+  </div>
 
   <hr width="75%">
 
-
-  <div class="containerC" id="#contact">
+  <h1 class="center" id ="contact">Contact</h1>
+  <div class="containerC">
     <form action="/action_page.php">
       <label for="fname">Name</label>
       <input type="text" id="fname" name="name" placeholder="Your name..">
