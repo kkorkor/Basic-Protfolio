@@ -117,12 +117,10 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  text-emphasis-color: black;
 }
 
 input[type=submit] {
   background-color: #4CAF50;
-  color: black;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
@@ -133,7 +131,7 @@ input[type=submit]:hover {
 }
 
 /* Style the container/contact section */
-.containerContact {
+.container {
   border-radius: 5px;
   padding: 10px;
 }
