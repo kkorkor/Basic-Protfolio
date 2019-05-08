@@ -149,13 +149,16 @@ input[type=submit]:hover {
   content: "";
   display: table;
   clear: both;
+}
 
-.containerC{
-  border-radius: 5px;
-   padding: 20px;
+  input, select, textarea{
+    color: black;
+}
+
+textarea:focus, input:focus {
+    color: black;
 }
 
 #portfolio{
   font-family: 'Times New Roman', Times, serif;
 }
-
