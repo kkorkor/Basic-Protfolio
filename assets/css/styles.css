@@ -107,9 +107,7 @@ position: relative;
 }
 
 
-{
-  box-sizing: border-box;
-}
+
 
 /* Style inputs */
 input[type=text], select, textarea {
@@ -119,11 +117,12 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  text-emphasis-color: black;
 }
 
 input[type=submit] {
   background-color: #4CAF50;
-  color: white;
+  color: black;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
@@ -162,9 +161,3 @@ input[type=submit]:hover {
   font-family: 'Times New Roman', Times, serif;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
